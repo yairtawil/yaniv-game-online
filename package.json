@@ -1,0 +1,19 @@
+{
+  "name": "yaniv-game-online",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "author": "Yair Tawil",
+  "workspaces": [
+    "modules/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

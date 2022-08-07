@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(0, 104, 62);
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.googleBtn {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 13px;
+  .icon {
+    font-size: 25px;
+    margin: 0 5px;
+  }
+}
+
+.margin {
+  margin-top: 40px;
+}
+
+.signIn {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+;
