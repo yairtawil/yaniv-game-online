@@ -1,0 +1,63 @@
+.board {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+
+  .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .pot {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .potCards {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+
+        &.action {
+          &:hover {
+            filter: drop-shadow(2px 4px 6px black);
+          }
+        }
+
+
+        img {
+          width: 100%;
+
+          &:nth-child(2) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(2.5%, 2.5%);
+          }
+          &:nth-child(3) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(5%, 5%);
+          }
+          &:nth-child(4) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(7.5%, 7.5%);
+          }
+        }
+      }
+
+    }
+
+    .player {
+      .playerCards {
+        display: flex;
+        margin: 20px;
+      }
+    }
+  }
+}

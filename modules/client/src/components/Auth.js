@@ -15,15 +15,6 @@ export default function Auth({ children }) {
         user: user ? JSON.parse(JSON.stringify(user)) : user,
       });
     });
-    // async function onAuthStateChanged(user) {
-    //   console.log('user?', cloneDeep(user))
-    //   setUserState({
-    //     initialized: true,
-    //     user: user ? clone(user) : user,
-    //   });
-    // }
-    //
-    // return getAuth().onAuthStateChanged(onAuthStateChanged);
   }, []);
 
   return children;
